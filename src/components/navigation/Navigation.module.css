@@ -1,24 +1,25 @@
 nav {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 30px;
   padding: 8px 0;
-  border-bottom: 1px solid #8d2222e1;
+  border-bottom: 1px solid #206b7e;
 }
 .link {
   padding: 8px 26px;
   border-radius: 4px;
   text-decoration: none;
-  color: #8d2222e1;
+  color: #206b7e;
   background-color: #fff;
-  outline: 2px solid #8d2222e1;
+  outline: 2px solid #206b7e;
   font-weight: 500;
   font-size: 18px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
 
 .active {
   composes: link;
-  background-color: #8d2222e1;
+  background-color: #206b7e;
   color: #fff;
 }

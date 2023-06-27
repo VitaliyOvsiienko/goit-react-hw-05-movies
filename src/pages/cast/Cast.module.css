@@ -28,8 +28,6 @@
   display: block;
   align-items: center;
   max-width: 90%;
-  height: auto;
-  /* object-fit: cover; */
   border-radius: 10px;
 }
 
